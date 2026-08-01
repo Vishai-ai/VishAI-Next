@@ -1,11 +1,23 @@
-<div align="center">
+# VishAI Next
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+VishAI Next is a production-grade, capability-based AI Operating System.
 
-  <h1>Built with AI Studio</h2>
+## Architecture
+The system uses a strictly layered architecture:
+- `kernel`: Core lifecycle management and configuration.
+- `interface`: Input/Output channels (CLI, API, Voice, GUI).
+- `learning`: Adaptive capabilities (Observation, Workflow, Skills).
+- `planner`, `executor`, `memory`: Cognitive sub-systems.
+- `plugins`: Extensible support for external applications.
+- `capabilities`: Core reusable features.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Booting
+To start the operating system:
+```bash
+python main.py
+```
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+To verify the boot sequence without running the event loop:
+```bash
+python main.py --verify
+```

@@ -1,0 +1,4 @@
+# Core Dependencies
+pyautogui
+pygetwindow
+pillow
